@@ -1,5 +1,6 @@
 package com.example.demo4.activity;
 
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 
@@ -13,6 +14,7 @@ public class BaseActivity extends SherlockFragmentActivity implements FragmentCo
 	protected void onCreate(Bundle arg0) {
 		// TODO Auto-generated method stub
 		super.onCreate(arg0);
+		setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 		fragmentManager = getSupportFragmentManager();
 		
 		DemoApp.registerFragmentControlClicks(this);

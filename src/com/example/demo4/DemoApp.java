@@ -7,11 +7,14 @@ import android.app.Application;
 
 public class DemoApp extends Application{
 	
+	public static DemoApp applicationContext;
+	
 	private static FragmentControlClicks fragmentControlClicks;
 	@Override
 	public void onCreate() {
 		// TODO Auto-generated method stub
 		super.onCreate();
+		applicationContext = this;
 	}
 
 	
