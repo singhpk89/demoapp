@@ -2,81 +2,213 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
+    
     <LinearLayout
-        android:id="@+id/login_page3"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="top|left"
-        android:layout_marginTop="30dp"
-        android:orientation="vertical"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp"
-        android:visibility="gone" >
+        android:layout_marginTop="8dp"
+        android:orientation="vertical" >
 
         <TextView
-            android:id="@+id/login_register_info"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="8dp"
-            android:gravity="center_horizontal"
-            android:textColor="#808080"
-            android:textSize="16dp" />
-
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:text="First Name"
+            android:textColor="#a6a6a6"
+            android:textSize="12sp" />
         <EditText
-            android:id="@+id/login_first_name_field"
+            android:id="@+id/userFName"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp"
-            android:layout_marginTop="34dp"
-            android:capitalize="words"
+            android:layout_gravity="left"
+            android:layout_marginRight="20dp"
+            android:layout_margin="20dp"
+            android:gravity="center_vertical"
             android:imeOptions="actionNext|flagNoExtractUi"
-            android:lines="1"
+            android:inputType="phone"
             android:maxLines="1"
             android:textColor="#000000"
             android:textColorHint="#979797"
             android:textCursorDrawable="@null"
-            android:textSize="18dp" />
-
-        <EditText
-            android:id="@+id/login_last_name_field"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp"
-            android:layout_marginTop="10dp"
-            android:autoText="false"
-            android:capitalize="words"
-            android:imeOptions="actionNext|flagNoExtractUi"
-            android:lines="1"
-            android:maxLines="1"
-            android:textColor="#000000"
-            android:textColorHint="#979797"
-            android:textCursorDrawable="@null"
-            android:textSize="18dp" />
-
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_below="@+id/spinner"
-            android:gravity="center_horizontal|bottom"
-            android:minHeight="140dp" >
-
-            <TextView
-                android:id="@+id/changed_mind"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:layout_gravity="bottom|center_horizontal"
-                android:layout_marginBottom="20dp"
-                android:layout_marginTop="-40dp"
-                android:gravity="center"
-                android:lineSpacingExtra="2dp"
-                android:textColor="#316f9f"
-                android:textSize="16dp" />
-        </LinearLayout>
+            android:textSize="16sp" />
     </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:text="First Name"
+            android:textColor="#a6a6a6"
+            android:textSize="15sp" />
+        <EditText
+            android:id="@+id/userLName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginRight="20dp"
+            android:layout_margin="20dp"
+            android:gravity="center_vertical"
+            android:imeOptions="actionNext|flagNoExtractUi"
+            android:inputType="phone"
+            android:maxLines="1"
+            android:textColor="#000000"
+            android:textColorHint="#979797"
+            android:textCursorDrawable="@null"
+            android:textSize="18sp" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:text="First Name"
+            android:textColor="#a6a6a6"
+            android:textSize="15sp" />
+        <EditText
+            android:id="@+id/userFName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginRight="20dp"
+            android:layout_margin="20dp"
+            android:gravity="center_vertical"
+            android:imeOptions="actionNext|flagNoExtractUi"
+            android:inputType="phone"
+            android:maxLines="1"
+            android:textColor="#000000"
+            android:textColorHint="#979797"
+            android:textCursorDrawable="@null"
+            android:textSize="18sp" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:text="First Name"
+            android:textColor="#a6a6a6"
+            android:textSize="15sp" />
+        <EditText
+            android:id="@+id/userFName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginRight="20dp"
+            android:layout_margin="20dp"
+            android:gravity="center_vertical"
+            android:imeOptions="actionNext|flagNoExtractUi"
+            android:inputType="phone"
+            android:maxLines="1"
+            android:textColor="#000000"
+            android:textColorHint="#979797"
+            android:textCursorDrawable="@null"
+            android:textSize="18sp" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:text="First Name"
+            android:textColor="#a6a6a6"
+            android:textSize="15sp" />
+        <EditText
+            android:id="@+id/userFName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginRight="20dp"
+            android:layout_margin="20dp"
+            android:gravity="center_vertical"
+            android:imeOptions="actionNext|flagNoExtractUi"
+            android:inputType="phone"
+            android:maxLines="1"
+            android:textColor="#000000"
+            android:textColorHint="#979797"
+            android:textCursorDrawable="@null"
+            android:textSize="18sp" />
+    </LinearLayout>
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        >
+
+        <TextView
+            android:id="@+id/txtCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="336dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/regbtn_states"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:textColor="#ffffff"
+            android:text="Cancel"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txtNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="336dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/regbtn_states"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:textColor="#ffffff"
+            android:text="Next  "
+            android:textSize="18dp" />
+    </RelativeLayout>
+   
 
 </LinearLayout>
